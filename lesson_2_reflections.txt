@@ -8,6 +8,7 @@ How can you use the staging area to make sure you have one commit per logical ch
 Use git diff --staged to check if only 1 change has been made, compared to the previous commit
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When you want to test a new feature, you can create a branch. The original project will not get modified and we can easily navigate betqeen the different branches.
 
 How do the diagrams help you visualize the branch structure?
 
