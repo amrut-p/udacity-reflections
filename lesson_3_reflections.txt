@@ -3,3 +3,4 @@ When you want to be able to access your repository from multiple devices. When y
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 In order to prevent conflicts between the two versions when they are not being updated with the same goal.
+test2 GitHub
