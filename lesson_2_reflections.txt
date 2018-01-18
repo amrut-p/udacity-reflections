@@ -11,7 +11,17 @@ What are some situations when branches would be helpful in keeping your history 
 When you want to test a new feature, you can create a branch. The original project will not get modified and we can easily navigate betqeen the different branches.
 
 How do the diagrams help you visualize the branch structure?
+Helps us better understand what the branch structure looks like and makes it easier for us to navigate through the branches.
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging two branches together results in a new commit that includes the changes made in both branches.
+Because the two separate branches end up "merging" to form a new commit.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+Pros of automatic merging: 
+-Most of the time, it is more efficient than having to manually select which parts to retain and which ones to remove.
+-Less prone to errors resulting from incorrect merging
+
+Cons of automatic merging:
+-We have less control over what changes are made 
+-Still results in merging errors, which have to fixed manually
