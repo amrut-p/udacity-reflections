@@ -10,3 +10,6 @@ We create branches for experimental purposes, removing bugs, adding new features
 Cloning is taking an existing repository and making one just like it. The existing repository can either be a remote or can be a local repository. It works on any 2 repositories.
 Forking is cloning a repository from GitHub to GitHub. It involves taking an existing repository and making a copy of it.
 We use clones and forks when we want to modify a repository without reflecting the changes in the owner's repository.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+You can have a good idea of the changes you have made since pulling from the remote and working locally. You will also be up-to-date with the changes made in the remote.
