@@ -13,3 +13,8 @@ We use clones and forks when we want to modify a repository without reflecting t
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 You can have a good idea of the changes you have made since pulling from the remote and working locally. You will also be up-to-date with the changes made in the remote.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Without Git and GitHub, we would probably just email files over to each other, merge our changes and send them back. Or we would work on them together. Either way, it is more unproductive.
+With GitHub, we have a full, organised list of changes, and we can revert to earlier versions easily. We can also simultaneously create branches to work on new features.
+
