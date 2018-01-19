@@ -4,4 +4,9 @@ When you want to be able to access your repository from multiple devices. When y
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 In order to prevent conflicts between the two versions when they are not being updated with the same goal. If they always update automatically, it may lead to merge conflicts more frequently.
 
-
+Describe the differences between forks, clones, and branches.  When would you use one instead of another?
+Branch happens on a single repository.
+We create branches for experimental purposes, removing bugs, adding new features etc. such that master is always the official, fully working version of code.
+Cloning is taking an existing repository and making one just like it. The existing repository can either be a remote or can be a local repository. It works on any 2 repositories.
+Forking is cloning a repository from GitHub to GitHub. It involves taking an existing repository and making a copy of it.
+We use clones and forks when we want to modify a repository without reflecting the changes in the owner's repository.
