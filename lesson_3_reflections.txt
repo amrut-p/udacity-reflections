@@ -1,20 +1,24 @@
-When would you want to create a remote repository rather than keeping all your work local?
-When you want to be able to access your repository from multiple devices. When you are working with collaborators.
+-When would you want to create a remote repository rather than keeping all your work local?
+    When you want to be able to access your repository from multiple devices. When you are working with collaborators.
 
-Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
-In order to prevent conflicts between the two versions when they are not being updated with the same goal. If they always update automatically, it may lead to merge conflicts more frequently.
+-Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+    In order to prevent conflicts between the two versions when they are not being updated with the same goal. If they always update           automatically, it may lead to merge conflicts more frequently.
 
-Describe the differences between forks, clones, and branches.  When would you use one instead of another?
-Branch happens on a single repository.
-We create branches for experimental purposes, removing bugs, adding new features etc. such that master is always the official, fully working version of code.
-Cloning is taking an existing repository and making one just like it. The existing repository can either be a remote or can be a local repository. It works on any 2 repositories.
-Forking is cloning a repository from GitHub to GitHub. It involves taking an existing repository and making a copy of it.
-We use clones and forks when we want to modify a repository without reflecting the changes in the owner's repository.
+-Describe the differences between forks, clones, and branches.  When would you use one instead of another?
+    Branch happens on a single repository.
+    We create branches for experimental purposes, removing bugs, adding new features etc. such that master is always the official, fully       working version of code.
+    Cloning is taking an existing repository and making one just like it. The existing repository can either be a remote or can be a local     repository. It works on any 2 repositories.
+    Forking is cloning a repository from GitHub to GitHub. It involves taking an existing repository and making a copy of it.
+    We use clones and forks when we want to modify a repository without reflecting the changes in the owner's repository.
 
-What is the benefit of having a copy of the last known state of the remote stored locally?
-You can have a good idea of the changes you have made since pulling from the remote and working locally. You will also be up-to-date with the changes made in the remote.
+-What is the benefit of having a copy of the last known state of the remote stored locally?
+    You can have a good idea of the changes you have made since pulling from the remote and working locally. You will also be up-to-date       with the changes made in the remote.
 
-How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
-Without Git and GitHub, we would probably just email files over to each other, merge our changes and send them back. Or we would work on them together. Either way, it is more unproductive.
-With GitHub, we have a full, organised list of changes, and we can revert to earlier versions easily. We can also simultaneously create branches to work on new features.
+-How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+    Without Git and GitHub, we would probably just email files over to each other, merge our changes and send them back. Or we would work       on them together. Either way, it is more unproductive.
+    With GitHub, we have a full, organised list of changes, and we can revert to earlier versions easily. We can also simultaneously create     branches to work on new features.
+
+-When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
+    Branch is good when adding experimental features without affecting the functionality of master. We can merge the branch back into           master when it is completed and fully functional.
+
 
