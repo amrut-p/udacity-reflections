@@ -1,0 +1,113 @@
+git log
+	To view history of commits in the Git repository
+
+git log -n num
+	Displays num commits (num is an integer)
+
+git diff old_commit_id new_commit_id
+	To view the additions(+) in the new commit and deletions(-) from the old commit
+
+git clone repository_url
+	To create a local copy of the repository
+
+git checkout commit_id
+	To revert back to a particular commit
+
+
+
+git init
+	To initialise/create a new Git repository in a specific directory
+
+git status
+	Shows which files have changed since the last commit
+
+git add file_name
+	Adds the file to the staging area (changes to commit)
+
+git reset file_name
+	To remove file from the staging area
+
+git commit -m "Commit_message"
+
+git commit
+	To commit changes to files in staging area
+
+git diff
+	To compare files in working directory to those in staging area
+	Shows changes we've made that haven't been added to staging area
+
+git diff --staged
+	To see changes between most recent commit and staging area
+
+git reset --hard
+	To discard any changes in working directory and staging area 
+
+git checkout master (<branch>  ???)
+	 Fixes 'detached' HEAD (checked out an old commit)
+
+
+
+git branch
+	Shows current branches
+
+git branch branch_name
+	Creates a new branch called branch_name
+
+git checkout branch_name
+	Changes the checked out branch to branch_name
+
+git checkout -b new_branch_name
+	Equivalent to previous 2 commands. Creates a new branch and checks out that branch
+
+git log --graph --oneline branch_1 branch_2
+	To visualise branch structure. '--oneline' makes output shorter and easier to see. branch_1 (eg. master) and branch_2 (eg. easy-mode) are branches that we want to visualise.
+
+git merge branch2 branch3
+	Merges branch2 and branch3 with the currently checked out branch
+
+git merge --abort
+	Restores files to their state before merge was started 
+
+git show commit_id
+	To compare a commit to its parent
+
+git branch -d branch_name
+	Deletes branch branch_name
+
+
+subl file_name
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+*******************************************************************
+                              ********
+                              *GITHUB*
+                              ********
+
+git remote
+	To see all current remotes
+
+git remote add <name> <url>
+	To add the repository on GitHub as a remote. <name> is the name we want to use
+
+git remote set-url <existing_remote_name> <url>
+	Changes an existing remote repository URL
+
+git remote -v
+	Will output more information, i.e., it will be more verbose
+
+git push <remote> <branch>
+	To send our changes to the remote
+	<remote> the remote to send changes to
+	<branch> the name of the local branch we want to push 
+
+git pull <remote> <branch>
+	To sync changes from the remote (GitHub) to the local version (Git)
+	<branch> the branch to pull
+
+git fetch <remote>
+	Updates the local copy of the remote branch (eg. origin/master) and leaves the local branch (master) alone and doesn't change it.
+
+	So, if changes are made in both the local (Git) and remote (GitHub) repositories, then
+		git pull origin master = git fetch origin
+								 git merge master origin/master
